@@ -41,6 +41,18 @@ db.run(`CREATE TABLE IF NOT EXISTS COMPANY(
             INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY)
             VALUES (6, 'Kim', 22, 'South-Hall', 45000.00 );
         */
+        /*
+        -- GET     SELECT * FROM COMPANY;
+        -- GET/ID  SELECT * FROM COMPANY WHERE ID = 7;
 
+        -- PUT/ID
+        -- UPDATE COMPANY SET NAME=, AGE=ADDRESS=,SALARY= WHERE ID = _7
+        -- PATCH/ID
+        -- UPDATE COMPANY SET NAME={IF IN BODY}, AGE={IF IN BODY}ADDRESS={IF IN BODY},SALARY={IF IN BODY}
+        -- WHERE ID = _7
+        
+        -- DELETE/ID
+        -- DELETE FROM COMPANY WHERE ID = 7
+        */
 
     });
